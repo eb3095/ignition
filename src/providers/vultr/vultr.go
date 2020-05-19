@@ -37,8 +37,7 @@ const (
 	name           = "vultr"
 	initialBackoff = 100 * time.Millisecond
 	maxBackoff     = 30 * time.Second
-	host           = "http://169.254.169.254/"
-	dataUrl           = host + "metadata/v1/user-data"
+	dataUrl        = "http://169.254.169.254/latest/user-data"
 )
 
 func init() {
