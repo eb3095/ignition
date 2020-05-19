@@ -33,6 +33,7 @@ import (
 	_ "github.com/coreos/ignition/src/providers/file"
 	_ "github.com/coreos/ignition/src/providers/noop"
 	_ "github.com/coreos/ignition/src/providers/vmware"
+	_ "github.com/coreos/ignition/src/providers/vultr"
 )
 
 var (
