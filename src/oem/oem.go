@@ -79,6 +79,12 @@ func init() {
 		},
 	})
 	configs.Register(Config{
+		name: "vultr",
+		flags: map[string]string{
+			"provider": "vultr",
+		},
+	})
+	configs.Register(Config{
 		name: "exoscale",
 		flags: map[string]string{
 			"provider": "noop",
